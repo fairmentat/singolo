@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 1.6rem;
+   
+}
+
+
+
+/* FIRST MISSION - HEADER */
+
+
+.singolo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -.55px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0 40px;
+    
+
+}
+
+.header {
+    width: 940px;
+    height: 87px;
+    background-color: #2d303a;
+    border-bottom: solid 6px #323746;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav__list {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav__list__item {
+    margin-right: 29px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+a:hover,
+a:focus {
+  color: #f06c64;
+}
+
+
+
+
+
+
+
+
